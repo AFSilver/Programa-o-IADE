@@ -1,6 +1,0 @@
-Compilar: g++ Exercicios.cpp -o Exercicios.exe
-Executar: .\Exercicios.exe
-CD ou mudar diretorio exemplo: cd "C:\Users\silve\CPP\Exercicios"
-dir: ver contudos na pasta
-
-Gravar CRTL + S
