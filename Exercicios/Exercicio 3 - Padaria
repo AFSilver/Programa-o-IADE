@@ -1,0 +1,31 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int paes;
+    double broas;
+
+    double vendasPaes;
+    double vendasBroas;
+    double vendasTotal;
+
+    cout << "Inserir numero de paes: ";
+    cin >> paes;
+
+    cout << "Inserir numero de broas: ";
+    cin >> broas;
+
+    vendasPaes = paes * 0.14;
+    vendasBroas = broas * 1.50;
+    vendasTotal = vendasPaes + vendasBroas;
+
+    cout << "Total de paes: " << paes << endl;
+    cout << "Total de broas: " << broas << endl;
+
+    cout << "Vendas de paes: " << vendasPaes << " euros" << endl;
+    cout << "Vendas de broas: " << vendasBroas << " euros" << endl;
+    cout << "Total vendido: " << vendasTotal << " euros" << endl;
+
+    return 0;
+}
